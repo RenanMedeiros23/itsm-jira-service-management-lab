@@ -1,0 +1,41 @@
+# Case Study — SUP-6: SAP Service Outage
+
+## Overview
+
+This case study documents a simulated critical incident managed in Jira Service Management as part of an ITSM training lab.
+
+**Incident:** SUP-6  
+**Service:** SAP – Gestão Empresarial  
+**Priority:** Highest  
+**Impact:** Extensive / Widespread  
+**Urgency:** Critical  
+**Final Status:** Completed  
+**Resolution:** Fixed
+
+## Incident Description
+
+A simulated SAP outage interrupted production activities and affected approximately 40 employees. No workaround was available.
+
+## Incident Management Activities
+
+- Registered and classified the incident.
+- Assigned the ticket to a Service Desk L1 agent.
+- Documented internal troubleshooting and escalation activities.
+- Simulated technical intervention by the L2 support team.
+- Recorded user confirmation of service restoration.
+- Resolved the incident after validating recovery.
+
+## Results
+
+The incident was resolved with the resolution **Fixed**. It was automatically removed from the critical incident queue because it no longer matched the JQL condition `resolution = Unresolved`.
+
+## Lessons Learned
+
+- Incident priority should reflect business impact and urgency.
+- Service restoration and root cause investigation are different activities.
+- Internal notes help maintain a clear incident history.
+- JQL queues help agents organize and monitor unresolved incidents.
+
+## Disclaimer
+
+This is an educational simulation, not a real production incident.
